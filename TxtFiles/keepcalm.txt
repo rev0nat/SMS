@@ -1,0 +1,24 @@
+DEPENDANCES:
+	ModuleNotFoundError: No module named 'mysql'
+		pip install mysql-connector
+	solved
+	ModuleNotFoundError: No module named 'sshtunnel'
+		pip install sshtunnel
+	solved
+	ModuleNotFoundError: No module named 'celestools'
+		(local SMS) git clone ssh://git@SMS2:/srv/git/celestools.git
+	solved
+	KeyError: 'CALMDATA'
+		export CALMDATA="PATH/TO/FOLDER/TO/SAVE/DATA"
+	solved
+	ModuleNotFoundError: No module named 'selenium'	
+		pip install selenium
+	solved		
+	ModuleNotFoundError: No module named 'bs4'
+		pip install bs4
+	solved
+	SyntaxError: Non-ASCII character '\xc3' in file /home/rev0nat/code/ShareMySpace/keepcalm/keepcalm/database.py on line 92, but no encoding declared;
+		placer la ligne de l'encodage juste en dessous du shebang
+	solved
+
+	

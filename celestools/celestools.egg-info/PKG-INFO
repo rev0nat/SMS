@@ -1,0 +1,63 @@
+Metadata-Version: 1.0
+Name: celestools
+Version: 1.0.7
+Summary: Tools to solve problems about orbital flight
+Home-page: ssh://git@SMS2:/srv/git/celestools.git
+Author: Alexis Petit
+Author-email: alexis.petit@sharemyspace.global
+License: Copyright (c) 2017 PETIT Alexis
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+* Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Description: Introduction to Celestools
+        **************************
+        
+        This Python package contains modules useful for celestial mechanics and in particular for orbital flight. 
+        
+        Last update: 2020/04/22 by Alexis Petit, Delphine Ly, Gabriel Magnaval.
+        
+        * Version 1.0.0: Initial version from CelestialPy (constants, coordinates, time scales, TLE).
+        * Version 1.0.1: Add coordinate and frame transformations using Orekit.
+        * Version 1.0.2: Determination of the satellite coordinate systems RSW and NWT as defined by Vallado, 2013, p.157. 
+        * Version 1.0.3: Modification of the keys.
+        * Version 1.0.4: Vectorization of the conversion modules. Add arguments in the TLE reader.
+        * Version 1.0.5: Reference frame transformation (with Orekit and Astropy).
+        * Version 1.0.6: Computation of the collision probability.
+        
+        Installation 
+        ************
+        
+        From the repo
+        
+        .. code:: bash
+        
+            $ git clone ssh://git@SMS2:/srv/git/celestools.git
+        
+        Install the Celestools Python package (setup.py in the package directory)  
+        
+        .. code:: bash
+        
+            $ python setup.py install
+        
+        To remove 
+        
+        .. code:: bash
+        
+            $ pip uninstall
+        
+        Benchmark
+        *********
+        
+        In the directory *tests*, you check the package with
+        
+        .. code:: bash
+        
+            $ python vallado.py
+        
+Platform: UNKNOWN

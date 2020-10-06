@@ -1,0 +1,33 @@
+server SMS2:
+192.168.1.23
+user: guillot
+pdm: t1t2t3t4t5t6
+
+mail anteo.guillot@sharemyspace.global
+pdm: 4+hZH#w}PU
+
+slack
+user: anteo.guillot@sharemyspace.global
+pdm: slackslackslack12!!!
+
+git server local:
+git clone ssh://git@SMS2:/srv/git/padme.git
+pdm: SMSvers!ON 
+
+space-track
+user: anteo.guillot@sharemyspace.global
+pdm: Meetanallnewworld121512
+
+Les infos proviennent de:
+- https://www.space-track.org/
+
+- Fleet Control Panel	
+	Application interne a SMS qui montre quelques satellites avec leurs risques de collision potentiels avec objets.
+	!! Clean l'approvisionnement en données. Pour l'instant tout provient de DATAPREP, et c'est mal organisé. L'appli va directement chercher les données via DATAPREP, on veut que notre DB fasse ça, et que l'appli communique avec notre DB.
+- MANEXT (extraction de manoeuvres)
+
+
+TODAY: 
+1. Ce que je dois faire exactement (FCP or Manext? Faire une DB indépendante?)
+Manext to clean.
+2. Mettre en place environnement de travail (téléchargement du code pour voir ce qu'il en est, familiarisation avec le code). Exporter manenv dans mon environnement de travail puis lancer le bail.
